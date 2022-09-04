@@ -1,23 +1,27 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Drawing app</title>
-    <link rel="stylesheet" href="styles.css">
+  <title>Drawing App</title>
+  <style>
+    body{
+      background-color: black;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
 </head>
-
 <body>
-    <center>
-        <div>
-            <label>Color</label>
-            <input id="color" type="color">
-            <label>Line Width</label>
-            <input id='lineWidth' type="range" min="0" max="30" value="10">
-            <button id="clear">Clear</button>
-        </div>
-        <br />
-        <canvas id="drawing-board"></canvas>
-        <script src="script.js"></script>
-    </center>
+  <center>
+    <div>
+      <label>Color</label>
+      <input id="color" type="color"/>
+      <label>Line Width</label>
+      <input id="line-width" type='range' min="3" max="30" value="10"/>
+      <button id="clear">Clear</button>
+    </div>
+    <br>
+    <canvas id="drawing-board"></canvas>
+  </center>
+  <script src="./script.js"></script>
 </body>
-
 </html>
