@@ -1,6 +1,6 @@
 const canvas = document.getElementById("drawing-board")
 const ctx = canvas.getContext('2d')
-//////////////////////
+////////////////////////
 canvas.width = 800
 canvas.height = 500
 
