@@ -6,7 +6,7 @@ canvas.height = 500
 
 ctx.fillStyle = 'white'
 ctx.fillRect(0,0, canvas.width, canvas.height)
-
+//
 const clearBtn = document.getElementById('clear')
 const colorInput = document.getElementById('color')
 const lineWidthInput = document.getElementById('line-width')
